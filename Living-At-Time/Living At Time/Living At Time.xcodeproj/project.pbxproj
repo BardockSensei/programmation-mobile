@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270005482BBBFD450028CE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270005472BBBFD450028CE9D /* AppDelegate.swift */; };
+		2700054A2BBBFD450028CE9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270005492BBBFD450028CE9D /* SceneDelegate.swift */; };
+		2700054C2BBBFD450028CE9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700054B2BBBFD450028CE9D /* ViewController.swift */; };
+		2700054F2BBBFD450028CE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2700054D2BBBFD450028CE9D /* Main.storyboard */; };
+		270005512BBBFD460028CE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270005502BBBFD460028CE9D /* Assets.xcassets */; };
+		270005542BBBFD460028CE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270005522BBBFD460028CE9D /* LaunchScreen.storyboard */; };
+		270976D02BBEE3DE00445556 /* PersonnageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270976CF2BBEE3DE00445556 /* PersonnageViewController.swift */; };
+		271DBA432BCE8D220014A5A3 /* GameOverFirst.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA1C2BCE8D200014A5A3 /* GameOverFirst.txt */; };
+		271DBA442BCE8D220014A5A3 /* CultisteDeath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA1D2BCE8D200014A5A3 /* CultisteDeath.txt */; };
+		271DBA452BCE8D220014A5A3 /* ninjaMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA1E2BCE8D200014A5A3 /* ninjaMeeting.txt */; };
+		271DBA462BCE8D220014A5A3 /* EndGame.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA1F2BCE8D200014A5A3 /* EndGame.txt */; };
+		271DBA472BCE8D220014A5A3 /* GameOverReligion.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA202BCE8D200014A5A3 /* GameOverReligion.txt */; };
+		271DBA482BCE8D220014A5A3 /* GameEventRobin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA212BCE8D200014A5A3 /* GameEventRobin.txt */; };
+		271DBA492BCE8D220014A5A3 /* GameEventChevalierCreuset.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA222BCE8D200014A5A3 /* GameEventChevalierCreuset.txt */; };
+		271DBA4A2BCE8D220014A5A3 /* ChevalierCreusetDeath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA232BCE8D200014A5A3 /* ChevalierCreusetDeath.txt */; };
+		271DBA4B2BCE8D220014A5A3 /* mageEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA242BCE8D200014A5A3 /* mageEvent.txt */; };
+		271DBA4C2BCE8D220014A5A3 /* ChevalierCreusetEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA252BCE8D200014A5A3 /* ChevalierCreusetEvent.txt */; };
+		271DBA4D2BCE8D220014A5A3 /* GameEventAssassin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA262BCE8D200014A5A3 /* GameEventAssassin.txt */; };
+		271DBA4E2BCE8D220014A5A3 /* GameEventTemplier.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA272BCE8D200014A5A3 /* GameEventTemplier.txt */; };
+		271DBA4F2BCE8D220014A5A3 /* AssassinMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA282BCE8D200014A5A3 /* AssassinMeeting.txt */; };
+		271DBA502BCE8D220014A5A3 /* ChevalierCreusetMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA292BCE8D200014A5A3 /* ChevalierCreusetMeeting.txt */; };
+		271DBA512BCE8D220014A5A3 /* victoryElectionEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2A2BCE8D210014A5A3 /* victoryElectionEvent.txt */; };
+		271DBA522BCE8D220014A5A3 /* CultisteMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2B2BCE8D210014A5A3 /* CultisteMeeting.txt */; };
+		271DBA532BCE8D220014A5A3 /* GameEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2C2BCE8D210014A5A3 /* GameEvent.txt */; };
+		271DBA542BCE8D220014A5A3 /* GameEventUnique.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2D2BCE8D210014A5A3 /* GameEventUnique.txt */; };
+		271DBA552BCE8D220014A5A3 /* RobinMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2E2BCE8D210014A5A3 /* RobinMeeting.txt */; };
+		271DBA562BCE8D220014A5A3 /* NinjaDeath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA2F2BCE8D210014A5A3 /* NinjaDeath.txt */; };
+		271DBA572BCE8D220014A5A3 /* AssassinEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA302BCE8D210014A5A3 /* AssassinEvent.txt */; };
+		271DBA582BCE8D220014A5A3 /* TemplierEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA312BCE8D210014A5A3 /* TemplierEvent.txt */; };
+		271DBA592BCE8D220014A5A3 /* story.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA322BCE8D210014A5A3 /* story.txt */; };
+		271DBA5A2BCE8D220014A5A3 /* TemplierAssassinDeath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA332BCE8D210014A5A3 /* TemplierAssassinDeath.txt */; };
+		271DBA5B2BCE8D220014A5A3 /* electionEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA342BCE8D210014A5A3 /* electionEvent.txt */; };
+		271DBA5C2BCE8D220014A5A3 /* GameOverMillitaire.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA352BCE8D210014A5A3 /* GameOverMillitaire.txt */; };
+		271DBA5D2BCE8D220014A5A3 /* save.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA362BCE8D210014A5A3 /* save.txt */; };
+		271DBA5E2BCE8D220014A5A3 /* TemplierMeeting.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA372BCE8D210014A5A3 /* TemplierMeeting.txt */; };
+		271DBA5F2BCE8D220014A5A3 /* firstElectionEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA382BCE8D210014A5A3 /* firstElectionEvent.txt */; };
+		271DBA602BCE8D220014A5A3 /* GameEventNinja.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA392BCE8D210014A5A3 /* GameEventNinja.txt */; };
+		271DBA612BCE8D220014A5A3 /* GameOverElection.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3A2BCE8D210014A5A3 /* GameOverElection.txt */; };
+		271DBA622BCE8D220014A5A3 /* GameOverWealth.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3B2BCE8D210014A5A3 /* GameOverWealth.txt */; };
+		271DBA632BCE8D220014A5A3 /* Credits.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3C2BCE8D210014A5A3 /* Credits.txt */; };
+		271DBA642BCE8D220014A5A3 /* GameEventCultiste.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3D2BCE8D210014A5A3 /* GameEventCultiste.txt */; };
+		271DBA652BCE8D220014A5A3 /* GameOverPopulation.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3E2BCE8D210014A5A3 /* GameOverPopulation.txt */; };
+		271DBA662BCE8D220014A5A3 /* CultisteEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA3F2BCE8D210014A5A3 /* CultisteEvent.txt */; };
+		271DBA672BCE8D220014A5A3 /* RobinDeath.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA402BCE8D210014A5A3 /* RobinDeath.txt */; };
+		271DBA682BCE8D220014A5A3 /* RobinEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA412BCE8D220014A5A3 /* RobinEvent.txt */; };
+		271DBA692BCE8D220014A5A3 /* NinjaEvent.txt in Resources */ = {isa = PBXBuildFile; fileRef = 271DBA422BCE8D220014A5A3 /* NinjaEvent.txt */; };
+		27655BF62BBC3C640099CC3D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27655BF52BBC3C640099CC3D /* GameViewController.swift */; };
+		5A01D8B02BCE8A20005E334D /* musicGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5A01D8AF2BCE8A20005E334D /* musicGame.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270005442BBBFD450028CE9D /* Living At Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Living At Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		270005472BBBFD450028CE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		270005492BBBFD450028CE9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2700054B2BBBFD450028CE9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2700054E2BBBFD450028CE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		270005502BBBFD460028CE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		270005532BBBFD460028CE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		270005552BBBFD460028CE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270976CF2BBEE3DE00445556 /* PersonnageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonnageViewController.swift; sourceTree = "<group>"; };
+		271DBA1C2BCE8D200014A5A3 /* GameOverFirst.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverFirst.txt; sourceTree = "<group>"; };
+		271DBA1D2BCE8D200014A5A3 /* CultisteDeath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CultisteDeath.txt; sourceTree = "<group>"; };
+		271DBA1E2BCE8D200014A5A3 /* ninjaMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ninjaMeeting.txt; sourceTree = "<group>"; };
+		271DBA1F2BCE8D200014A5A3 /* EndGame.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EndGame.txt; sourceTree = "<group>"; };
+		271DBA202BCE8D200014A5A3 /* GameOverReligion.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverReligion.txt; sourceTree = "<group>"; };
+		271DBA212BCE8D200014A5A3 /* GameEventRobin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventRobin.txt; sourceTree = "<group>"; };
+		271DBA222BCE8D200014A5A3 /* GameEventChevalierCreuset.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventChevalierCreuset.txt; sourceTree = "<group>"; };
+		271DBA232BCE8D200014A5A3 /* ChevalierCreusetDeath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChevalierCreusetDeath.txt; sourceTree = "<group>"; };
+		271DBA242BCE8D200014A5A3 /* mageEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mageEvent.txt; sourceTree = "<group>"; };
+		271DBA252BCE8D200014A5A3 /* ChevalierCreusetEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChevalierCreusetEvent.txt; sourceTree = "<group>"; };
+		271DBA262BCE8D200014A5A3 /* GameEventAssassin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventAssassin.txt; sourceTree = "<group>"; };
+		271DBA272BCE8D200014A5A3 /* GameEventTemplier.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventTemplier.txt; sourceTree = "<group>"; };
+		271DBA282BCE8D200014A5A3 /* AssassinMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssassinMeeting.txt; sourceTree = "<group>"; };
+		271DBA292BCE8D200014A5A3 /* ChevalierCreusetMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChevalierCreusetMeeting.txt; sourceTree = "<group>"; };
+		271DBA2A2BCE8D210014A5A3 /* victoryElectionEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = victoryElectionEvent.txt; sourceTree = "<group>"; };
+		271DBA2B2BCE8D210014A5A3 /* CultisteMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CultisteMeeting.txt; sourceTree = "<group>"; };
+		271DBA2C2BCE8D210014A5A3 /* GameEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEvent.txt; sourceTree = "<group>"; };
+		271DBA2D2BCE8D210014A5A3 /* GameEventUnique.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventUnique.txt; sourceTree = "<group>"; };
+		271DBA2E2BCE8D210014A5A3 /* RobinMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RobinMeeting.txt; sourceTree = "<group>"; };
+		271DBA2F2BCE8D210014A5A3 /* NinjaDeath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NinjaDeath.txt; sourceTree = "<group>"; };
+		271DBA302BCE8D210014A5A3 /* AssassinEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssassinEvent.txt; sourceTree = "<group>"; };
+		271DBA312BCE8D210014A5A3 /* TemplierEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemplierEvent.txt; sourceTree = "<group>"; };
+		271DBA322BCE8D210014A5A3 /* story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
+		271DBA332BCE8D210014A5A3 /* TemplierAssassinDeath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemplierAssassinDeath.txt; sourceTree = "<group>"; };
+		271DBA342BCE8D210014A5A3 /* electionEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = electionEvent.txt; sourceTree = "<group>"; };
+		271DBA352BCE8D210014A5A3 /* GameOverMillitaire.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverMillitaire.txt; sourceTree = "<group>"; };
+		271DBA362BCE8D210014A5A3 /* save.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = save.txt; sourceTree = "<group>"; };
+		271DBA372BCE8D210014A5A3 /* TemplierMeeting.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TemplierMeeting.txt; sourceTree = "<group>"; };
+		271DBA382BCE8D210014A5A3 /* firstElectionEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = firstElectionEvent.txt; sourceTree = "<group>"; };
+		271DBA392BCE8D210014A5A3 /* GameEventNinja.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventNinja.txt; sourceTree = "<group>"; };
+		271DBA3A2BCE8D210014A5A3 /* GameOverElection.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverElection.txt; sourceTree = "<group>"; };
+		271DBA3B2BCE8D210014A5A3 /* GameOverWealth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverWealth.txt; sourceTree = "<group>"; };
+		271DBA3C2BCE8D210014A5A3 /* Credits.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credits.txt; sourceTree = "<group>"; };
+		271DBA3D2BCE8D210014A5A3 /* GameEventCultiste.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameEventCultiste.txt; sourceTree = "<group>"; };
+		271DBA3E2BCE8D210014A5A3 /* GameOverPopulation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameOverPopulation.txt; sourceTree = "<group>"; };
+		271DBA3F2BCE8D210014A5A3 /* CultisteEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CultisteEvent.txt; sourceTree = "<group>"; };
+		271DBA402BCE8D210014A5A3 /* RobinDeath.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RobinDeath.txt; sourceTree = "<group>"; };
+		271DBA412BCE8D220014A5A3 /* RobinEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RobinEvent.txt; sourceTree = "<group>"; };
+		271DBA422BCE8D220014A5A3 /* NinjaEvent.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NinjaEvent.txt; sourceTree = "<group>"; };
+		27655BF52BBC3C640099CC3D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5A01D8AF2BCE8A20005E334D /* musicGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicGame.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		270005412BBBFD450028CE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2700053B2BBBFD450028CE9D = {
+			isa = PBXGroup;
+			children = (
+				270005462BBBFD450028CE9D /* Living At Time */,
+				270005452BBBFD450028CE9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		270005452BBBFD450028CE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				270005442BBBFD450028CE9D /* Living At Time.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		270005462BBBFD450028CE9D /* Living At Time */ = {
+			isa = PBXGroup;
+			children = (
+				279DBD812BC57D1900DD21B3 /* data */,
+				270005472BBBFD450028CE9D /* AppDelegate.swift */,
+				270005492BBBFD450028CE9D /* SceneDelegate.swift */,
+				2700054B2BBBFD450028CE9D /* ViewController.swift */,
+				5A01D8AF2BCE8A20005E334D /* musicGame.mp3 */,
+				2700054D2BBBFD450028CE9D /* Main.storyboard */,
+				270976CF2BBEE3DE00445556 /* PersonnageViewController.swift */,
+				27655BF52BBC3C640099CC3D /* GameViewController.swift */,
+				270005502BBBFD460028CE9D /* Assets.xcassets */,
+				270005522BBBFD460028CE9D /* LaunchScreen.storyboard */,
+				270005552BBBFD460028CE9D /* Info.plist */,
+			);
+			path = "Living At Time";
+			sourceTree = "<group>";
+		};
+		279DBD812BC57D1900DD21B3 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				271DBA302BCE8D210014A5A3 /* AssassinEvent.txt */,
+				271DBA282BCE8D200014A5A3 /* AssassinMeeting.txt */,
+				271DBA232BCE8D200014A5A3 /* ChevalierCreusetDeath.txt */,
+				271DBA252BCE8D200014A5A3 /* ChevalierCreusetEvent.txt */,
+				271DBA292BCE8D200014A5A3 /* ChevalierCreusetMeeting.txt */,
+				271DBA3C2BCE8D210014A5A3 /* Credits.txt */,
+				271DBA1D2BCE8D200014A5A3 /* CultisteDeath.txt */,
+				271DBA3F2BCE8D210014A5A3 /* CultisteEvent.txt */,
+				271DBA2B2BCE8D210014A5A3 /* CultisteMeeting.txt */,
+				271DBA342BCE8D210014A5A3 /* electionEvent.txt */,
+				271DBA1F2BCE8D200014A5A3 /* EndGame.txt */,
+				271DBA382BCE8D210014A5A3 /* firstElectionEvent.txt */,
+				271DBA2C2BCE8D210014A5A3 /* GameEvent.txt */,
+				271DBA262BCE8D200014A5A3 /* GameEventAssassin.txt */,
+				271DBA222BCE8D200014A5A3 /* GameEventChevalierCreuset.txt */,
+				271DBA3D2BCE8D210014A5A3 /* GameEventCultiste.txt */,
+				271DBA392BCE8D210014A5A3 /* GameEventNinja.txt */,
+				271DBA212BCE8D200014A5A3 /* GameEventRobin.txt */,
+				271DBA272BCE8D200014A5A3 /* GameEventTemplier.txt */,
+				271DBA2D2BCE8D210014A5A3 /* GameEventUnique.txt */,
+				271DBA3A2BCE8D210014A5A3 /* GameOverElection.txt */,
+				271DBA1C2BCE8D200014A5A3 /* GameOverFirst.txt */,
+				271DBA352BCE8D210014A5A3 /* GameOverMillitaire.txt */,
+				271DBA3E2BCE8D210014A5A3 /* GameOverPopulation.txt */,
+				271DBA202BCE8D200014A5A3 /* GameOverReligion.txt */,
+				271DBA3B2BCE8D210014A5A3 /* GameOverWealth.txt */,
+				271DBA242BCE8D200014A5A3 /* mageEvent.txt */,
+				271DBA2F2BCE8D210014A5A3 /* NinjaDeath.txt */,
+				271DBA422BCE8D220014A5A3 /* NinjaEvent.txt */,
+				271DBA1E2BCE8D200014A5A3 /* ninjaMeeting.txt */,
+				271DBA402BCE8D210014A5A3 /* RobinDeath.txt */,
+				271DBA412BCE8D220014A5A3 /* RobinEvent.txt */,
+				271DBA2E2BCE8D210014A5A3 /* RobinMeeting.txt */,
+				271DBA362BCE8D210014A5A3 /* save.txt */,
+				271DBA322BCE8D210014A5A3 /* story.txt */,
+				271DBA332BCE8D210014A5A3 /* TemplierAssassinDeath.txt */,
+				271DBA312BCE8D210014A5A3 /* TemplierEvent.txt */,
+				271DBA372BCE8D210014A5A3 /* TemplierMeeting.txt */,
+				271DBA2A2BCE8D210014A5A3 /* victoryElectionEvent.txt */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		270005432BBBFD450028CE9D /* Living At Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 270005582BBBFD460028CE9D /* Build configuration list for PBXNativeTarget "Living At Time" */;
+			buildPhases = (
+				270005402BBBFD450028CE9D /* Sources */,
+				270005412BBBFD450028CE9D /* Frameworks */,
+				270005422BBBFD450028CE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Living At Time";
+			productName = "Living At Time";
+			productReference = 270005442BBBFD450028CE9D /* Living At Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2700053C2BBBFD450028CE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					270005432BBBFD450028CE9D = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 2700053F2BBBFD450028CE9D /* Build configuration list for PBXProject "Living At Time" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2700053B2BBBFD450028CE9D;
+			productRefGroup = 270005452BBBFD450028CE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				270005432BBBFD450028CE9D /* Living At Time */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270005422BBBFD450028CE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				270005542BBBFD460028CE9D /* LaunchScreen.storyboard in Resources */,
+				271DBA4E2BCE8D220014A5A3 /* GameEventTemplier.txt in Resources */,
+				271DBA5F2BCE8D220014A5A3 /* firstElectionEvent.txt in Resources */,
+				271DBA542BCE8D220014A5A3 /* GameEventUnique.txt in Resources */,
+				270005512BBBFD460028CE9D /* Assets.xcassets in Resources */,
+				271DBA472BCE8D220014A5A3 /* GameOverReligion.txt in Resources */,
+				271DBA612BCE8D220014A5A3 /* GameOverElection.txt in Resources */,
+				271DBA572BCE8D220014A5A3 /* AssassinEvent.txt in Resources */,
+				271DBA4C2BCE8D220014A5A3 /* ChevalierCreusetEvent.txt in Resources */,
+				271DBA582BCE8D220014A5A3 /* TemplierEvent.txt in Resources */,
+				271DBA5B2BCE8D220014A5A3 /* electionEvent.txt in Resources */,
+				271DBA462BCE8D220014A5A3 /* EndGame.txt in Resources */,
+				271DBA692BCE8D220014A5A3 /* NinjaEvent.txt in Resources */,
+				271DBA642BCE8D220014A5A3 /* GameEventCultiste.txt in Resources */,
+				271DBA502BCE8D220014A5A3 /* ChevalierCreusetMeeting.txt in Resources */,
+				271DBA532BCE8D220014A5A3 /* GameEvent.txt in Resources */,
+				271DBA5E2BCE8D220014A5A3 /* TemplierMeeting.txt in Resources */,
+				271DBA622BCE8D220014A5A3 /* GameOverWealth.txt in Resources */,
+				271DBA602BCE8D220014A5A3 /* GameEventNinja.txt in Resources */,
+				271DBA682BCE8D220014A5A3 /* RobinEvent.txt in Resources */,
+				271DBA482BCE8D220014A5A3 /* GameEventRobin.txt in Resources */,
+				271DBA562BCE8D220014A5A3 /* NinjaDeath.txt in Resources */,
+				271DBA4F2BCE8D220014A5A3 /* AssassinMeeting.txt in Resources */,
+				271DBA492BCE8D220014A5A3 /* GameEventChevalierCreuset.txt in Resources */,
+				271DBA662BCE8D220014A5A3 /* CultisteEvent.txt in Resources */,
+				271DBA4B2BCE8D220014A5A3 /* mageEvent.txt in Resources */,
+				271DBA5A2BCE8D220014A5A3 /* TemplierAssassinDeath.txt in Resources */,
+				271DBA442BCE8D220014A5A3 /* CultisteDeath.txt in Resources */,
+				271DBA4D2BCE8D220014A5A3 /* GameEventAssassin.txt in Resources */,
+				271DBA5C2BCE8D220014A5A3 /* GameOverMillitaire.txt in Resources */,
+				5A01D8B02BCE8A20005E334D /* musicGame.mp3 in Resources */,
+				271DBA592BCE8D220014A5A3 /* story.txt in Resources */,
+				271DBA432BCE8D220014A5A3 /* GameOverFirst.txt in Resources */,
+				271DBA5D2BCE8D220014A5A3 /* save.txt in Resources */,
+				2700054F2BBBFD450028CE9D /* Main.storyboard in Resources */,
+				271DBA512BCE8D220014A5A3 /* victoryElectionEvent.txt in Resources */,
+				271DBA672BCE8D220014A5A3 /* RobinDeath.txt in Resources */,
+				271DBA552BCE8D220014A5A3 /* RobinMeeting.txt in Resources */,
+				271DBA632BCE8D220014A5A3 /* Credits.txt in Resources */,
+				271DBA452BCE8D220014A5A3 /* ninjaMeeting.txt in Resources */,
+				271DBA4A2BCE8D220014A5A3 /* ChevalierCreusetDeath.txt in Resources */,
+				271DBA522BCE8D220014A5A3 /* CultisteMeeting.txt in Resources */,
+				271DBA652BCE8D220014A5A3 /* GameOverPopulation.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270005402BBBFD450028CE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27655BF62BBC3C640099CC3D /* GameViewController.swift in Sources */,
+				2700054C2BBBFD450028CE9D /* ViewController.swift in Sources */,
+				270976D02BBEE3DE00445556 /* PersonnageViewController.swift in Sources */,
+				270005482BBBFD450028CE9D /* AppDelegate.swift in Sources */,
+				2700054A2BBBFD450028CE9D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2700054D2BBBFD450028CE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2700054E2BBBFD450028CE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		270005522BBBFD460028CE9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				270005532BBBFD460028CE9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		270005562BBBFD460028CE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		270005572BBBFD460028CE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		270005592BBBFD460028CE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDYHY2WX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Living At Time/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Living-At-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2700055A2BBBFD460028CE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WDYHY2WX37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Living At Time/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Living-At-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2700053F2BBBFD450028CE9D /* Build configuration list for PBXProject "Living At Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270005562BBBFD460028CE9D /* Debug */,
+				270005572BBBFD460028CE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		270005582BBBFD460028CE9D /* Build configuration list for PBXNativeTarget "Living At Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270005592BBBFD460028CE9D /* Debug */,
+				2700055A2BBBFD460028CE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2700053C2BBBFD450028CE9D /* Project object */;
+}

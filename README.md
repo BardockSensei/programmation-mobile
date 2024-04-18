@@ -7,8 +7,8 @@ Université Lumière Lyon 2 - Campus "Portes des Alpes"
 
 ### Présentation
 
-TODO
+Différents projets ont été réalisés : le jeu du tri, le jeu du pendu et un projet en équipe : "Living at time" (jeu mobile narratif)
 
 ### Outils
 
-Langage Swift (ios) et xcode
+Langage Swift (iOS) et Xcode

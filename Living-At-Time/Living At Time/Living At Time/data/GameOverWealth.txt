@@ -1,0 +1,8 @@
+2
+1;conseiller
+Mon seigneur, notre royaume est maintenant pauvres, nous croulons sous les dettes ...
+Que pouvons-nous faire ?
+Comment-est ce possible !?
+1;mort
+Vos conseillers et chevaliers vous ont trahis, votre royaume est passé entre leurs mains, vous êtes exécutés pour trahison envers le royaume ... Vous êtes Mort !
+
